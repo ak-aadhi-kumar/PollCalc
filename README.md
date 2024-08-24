@@ -6,4 +6,4 @@ A program to calculate STAR (score then automatic runoff) polling. Only supports
 2. Put the candidates in the first row of the votes.csv file, seperated by commas.
 3. In each subsequent row put each voter's rating of the candidates in the order of the candidates in the first row, seperated by commas.
 4. Repeat for as many voters.
-5. Run the program in the terminal/command line, output will be printed to screen.
+5. Run the program, output will be in a file named `output.txt`.
