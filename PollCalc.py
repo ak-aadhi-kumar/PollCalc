@@ -59,5 +59,5 @@ for vote in votes:
 
 sorted_runoff = dict(sorted(runoff.items(), key=lambda item: item[1], reverse=True))
 
-with open('output.txt', 'w') as f:
-    f.write(f'Score results: {sorted_totals}\nRunoff results: {sorted_runoff}\n')
+print(f"Score results: {sorted_totals}")
+print(f"Runoff results: {sorted_runoff}")
